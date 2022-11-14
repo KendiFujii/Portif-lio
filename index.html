@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <meta name="description" content="Essa página, tem como objetivo, mostrar o meu portifólio">
-    <link rel="icon" href="img/Favicon.png">
+    <link rel="icon" href="Img/Capivara.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Cabeçalho -->
-    <Header>
-        <div class="Container">
-
+    <Header id="inicio">
+        <div class="container Flex">
+            <div id="logo">
+                <img src="Img/Cabeça.png" alt="Capivara vtuber">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </Header>
+    
     <!-- Destaque -->
-    <main>
-        <div class="Container">
-            <h1>Portifólio</h1>
-            <h2>Óla, sou Kendi Fujii. E este é o meu portifólio</h2>
+     <main>
+        <div class="container">
+            <h1>Seja bem vindo</h1>
+            <h2>Meu nome é Kendi Fujii. E este é o meu portifólio</h2>
         </div>
-        
+
     </main>
     <!-- Sobre -->
-    <section>
-        <div class="Container">
+    <section id="sobre">
+        <div class="container">
             <h2>Sobre mim</h2>
             <p>Óla, sou Kendi. Um desenvolvedor web em formação.</p>
         </div>
-        
+
     </section>
+
     <!-- Habilidades -->
-    <section>
-        <Div class="Container">
+    <section id="habilidades">
+        <Div class="container">
             <h2>Habilidades</h2>
         </Div>
+
     </section>
     <!-- Contato -->
-    <section>
-        <div class="Container">
-            <h2>Contato</h2>
-        </div>
-            </section>
+
     <!-- rodapé -->
     <footer>
-        <div class="Container">
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+            </div>
+        </section>
+     </footer>
 
-        </div>
-    </footer>
-    
+    <a href="#inicio" id="topo"><img src="Img/Topo.png" alt="topo do site"></a>
 </body>
+
 </html>
